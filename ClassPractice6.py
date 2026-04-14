@@ -39,3 +39,4 @@ intern.calculate_salary()
 full_time_employee.calculate_salary()
 contract_employee.calculate_salary()
 
+  
