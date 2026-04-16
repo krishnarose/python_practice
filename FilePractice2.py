@@ -24,16 +24,19 @@
 
 # Write a program that tries to open "data.txt" a file in read mode. If the file does not exist, catch the exception and print "File not found!"
 
-try:
-    with open("data.txt", "r") as f:
-        data = f.read()
+# try:
+#     with open("data.txt", "r") as f:
+#         data = f.read()
 
-except FileNotFoundError:
-    print("File not found!")
+# except FileNotFoundError:
+#     print("File not found!")
 
-else:
-    print("File opened successfully!")
-    print(data)
+# else:
+#     print("File opened successfully!")
+#     print(data)
 
-finally:
-    print("Program execution completed.")
+# finally:
+#     print("Program execution completed.")
+
+import os
+os.remove("cities.json")
