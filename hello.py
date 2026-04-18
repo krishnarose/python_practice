@@ -39,17 +39,19 @@
 # print(x)
 # swap of two numbers
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
 
-a, b = b, a
+# a, b = b, a
 
-print("After swapping:")
-print("a =", a)
-print("b =", b)
+# print("After swapping:")
+# print("a =", a)
+# print("b =", b)
 
-def sum(x, y):
-    return x + y
+# def sum(x, y):
+#     return x + y
 
-result = sum(5, 10)
-print("The sum is:", result)
+# result = sum(5, 10)
+# print("The sum is:", result)
+
+print("Hello World")
